@@ -213,7 +213,7 @@ export default function WishesWall() {
         </div>
 
         {/* Submit Wish Form Card */}
-        <div className="max-w-2xl mx-auto glass-card rounded-3xl p-6 sm:p-10 border border-[#C9A27E]/40 shadow-2xl mb-16 relative overflow-hidden glow-card-gold">
+        <div className="max-w-2xl mx-auto glass-card rounded-3xl p-5 sm:p-10 border border-[#C9A27E]/40 shadow-2xl mb-16 relative overflow-hidden glow-card-gold">
           <div className="absolute top-0 right-0 w-36 h-36 bg-[#E8D5C4]/35 rounded-bl-full pointer-events-none" />
 
           <h3 className="font-serif italic text-2xl sm:text-3xl text-[#4A342A] mb-6 flex items-center gap-2.5">
@@ -383,7 +383,7 @@ export default function WishesWall() {
               return (
                 <div
                   key={item.id}
-                  className="glass-card-interactive rounded-3xl p-7 flex flex-col justify-between relative overflow-hidden group border border-[#C9A27E]/30 shadow-md"
+                  className="glass-card-interactive rounded-3xl p-5 sm:p-7 flex flex-col justify-between relative overflow-hidden group border border-[#C9A27E]/30 shadow-md"
                 >
                   <div className="absolute top-4 right-4 font-handwritten text-lg text-[#B87C5D] opacity-80">
                     ✨ Wish Card

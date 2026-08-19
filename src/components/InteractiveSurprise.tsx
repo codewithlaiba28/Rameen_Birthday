@@ -54,9 +54,9 @@ export default function InteractiveSurprise() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
           {/* Card 1: Virtual Cake & Candle Blowing */}
-          <div className="glass-card-interactive rounded-3xl p-8 sm:p-10 text-center flex flex-col justify-between items-center relative overflow-hidden border border-[#C9A27E]/30 shadow-xl">
+          <div className="glass-card-interactive rounded-3xl p-5 sm:p-10 text-center flex flex-col justify-between items-center relative overflow-hidden border border-[#C9A27E]/30 shadow-xl">
             <div className="w-full flex justify-between items-center mb-4">
               <span className="text-xs uppercase tracking-wider font-semibold text-[#B87C5D]">
                 Interactive Feature #1
@@ -90,20 +90,20 @@ export default function InteractiveSurprise() {
               </div>
 
               {/* Cake Top Layer */}
-              <div className="w-44 h-12 bg-gradient-to-r from-[#FFFDF9] via-[#E8D5C4] to-[#FFFDF9] rounded-t-2xl border-t border-x border-[#C9A27E]/40 shadow-sm flex items-center justify-center relative">
-                <span className="text-xs font-handwritten text-[#B87C5D] text-lg">
+              <div className="w-36 sm:w-44 h-12 bg-gradient-to-r from-[#FFFDF9] via-[#E8D5C4] to-[#FFFDF9] rounded-t-2xl border-t border-x border-[#C9A27E]/40 shadow-sm flex items-center justify-center relative">
+                <span className="text-xs font-handwritten text-[#B87C5D] text-base sm:text-lg">
                   Happy Birthday Rameen
                 </span>
               </div>
 
               {/* Cake Bottom Layer */}
-              <div className="w-56 h-16 bg-gradient-to-r from-[#E8D5C4] via-[#C9A27E]/40 to-[#E8D5C4] rounded-b-2xl border border-[#C9A27E]/40 shadow-md flex items-center justify-around px-4">
+              <div className="w-44 sm:w-56 h-16 bg-gradient-to-r from-[#E8D5C4] via-[#C9A27E]/40 to-[#E8D5C4] rounded-b-2xl border border-[#C9A27E]/40 shadow-md flex items-center justify-around px-4">
                 <Heart className="w-4 h-4 text-[#B87C5D] fill-[#B87C5D]/40" />
                 <Star className="w-4 h-4 text-[#C9A27E] fill-[#C9A27E]/40" />
                 <Heart className="w-4 h-4 text-[#B87C5D] fill-[#B87C5D]/40" />
               </div>
               {/* Cake Stand Base */}
-              <div className="w-64 h-3 bg-[#4A342A]/20 rounded-full blur-xs mt-1" />
+              <div className="w-48 sm:w-64 h-3 bg-[#4A342A]/20 rounded-full blur-xs mt-1" />
             </div>
 
             {/* Action Buttons */}
@@ -134,7 +134,7 @@ export default function InteractiveSurprise() {
           </div>
 
           {/* Card 2: Surprise Gift Box */}
-          <div className="glass-card-interactive rounded-3xl p-8 sm:p-10 text-center flex flex-col justify-between items-center relative overflow-hidden border border-[#C9A27E]/30 shadow-xl">
+          <div className="glass-card-interactive rounded-3xl p-5 sm:p-10 text-center flex flex-col justify-between items-center relative overflow-hidden border border-[#C9A27E]/30 shadow-xl">
             <div className="w-full flex justify-between items-center mb-4">
               <span className="text-xs uppercase tracking-wider font-semibold text-[#B87C5D]">
                 Interactive Feature #2

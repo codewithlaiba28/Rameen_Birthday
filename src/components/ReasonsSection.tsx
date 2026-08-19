@@ -64,7 +64,7 @@ export default function ReasonsSection() {
                 key={item.id}
                 onMouseEnter={() => setActiveReason(item.id)}
                 onMouseLeave={() => setActiveReason(null)}
-                className={`glass-card-interactive rounded-3xl p-8 sm:p-9 flex flex-col justify-between group relative overflow-hidden cursor-pointer border ${
+                className={`glass-card-interactive rounded-3xl p-5 sm:p-8 md:p-9 flex flex-col justify-between group relative overflow-hidden cursor-pointer border ${
                   isHovered ? "border-[#B87C5D] shadow-2xl scale-[1.02]" : "border-[#C9A27E]/30"
                 }`}
               >

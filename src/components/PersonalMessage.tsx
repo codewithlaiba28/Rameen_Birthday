@@ -21,7 +21,7 @@ export default function PersonalMessage() {
         </div>
 
         {/* Letter Container */}
-        <div className="relative glass-card rounded-3xl p-8 sm:p-14 border border-[#C9A27E]/40 shadow-2xl overflow-hidden glow-card-gold">
+        <div className="relative glass-card rounded-3xl p-5 sm:p-10 md:p-14 border border-[#C9A27E]/40 shadow-2xl overflow-hidden glow-card-gold">
           {/* Subtle Decorative Accents */}
           <div className="absolute top-6 right-6 opacity-15 pointer-events-none">
             <Feather className="w-20 h-20 text-[#B87C5D]" />

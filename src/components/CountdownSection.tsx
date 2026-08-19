@@ -68,9 +68,9 @@ export default function CountdownSection() {
   };
 
   return (
-    <section className="py-16 px-4 sm:px-6 relative z-10">
+    <section className="py-12 sm:py-16 px-4 sm:px-6 relative z-10">
       <div className="max-w-4xl mx-auto">
-        <div className="glass-card rounded-3xl p-8 sm:p-12 text-center border border-[#C9A27E]/40 shadow-2xl relative overflow-hidden glow-card-gold">
+        <div className="glass-card rounded-3xl p-6 sm:p-12 text-center border border-[#C9A27E]/40 shadow-2xl relative overflow-hidden glow-card-gold">
           {/* Subtle Background Radial Glow */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-[#E8D5C4]/40 rounded-full blur-3xl pointer-events-none" />
 

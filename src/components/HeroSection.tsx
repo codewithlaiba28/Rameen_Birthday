@@ -75,15 +75,15 @@ export default function HeroSection() {
 
         {/* Main Title */}
         <h1
-          className={`font-serif italic text-5xl sm:text-7xl md:text-8xl lg:text-9xl text-[#4A342A] leading-[1.08] tracking-tight mb-8 transition-all duration-1000 delay-200 ${
+          className={`font-serif italic text-4xl sm:text-7xl md:text-8xl lg:text-9xl text-[#4A342A] leading-[1.08] tracking-tight mb-6 sm:mb-8 transition-all duration-1000 delay-200 ${
             mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
           }`}
         >
           Happy Birthday <br className="hidden sm:inline" />
-          <span className="relative inline-block text-gradient-shimmer not-italic font-semibold">
+          <span className="relative inline-block text-gradient-shimmer not-italic font-semibold break-words">
             Rameen Afzal
             <svg
-              className="absolute -bottom-3 left-0 w-full h-4 text-[#C9A27E]/60 pointer-events-none"
+              className="absolute -bottom-2 sm:-bottom-3 left-0 w-full h-3 sm:h-4 text-[#C9A27E]/60 pointer-events-none"
               viewBox="0 0 100 20"
               preserveAspectRatio="none"
             >
@@ -99,7 +99,7 @@ export default function HeroSection() {
 
         {/* Subtitle */}
         <p
-          className={`font-sans text-base sm:text-xl text-[#4A342A]/85 max-w-2xl leading-relaxed mb-12 transition-all duration-1000 delay-400 ${
+          className={`font-sans text-sm sm:text-lg md:text-xl text-[#4A342A]/85 max-w-2xl leading-relaxed mb-8 sm:mb-12 transition-all duration-1000 delay-400 ${
             mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
           }`}
         >
@@ -108,13 +108,13 @@ export default function HeroSection() {
 
         {/* Interactive CTA Buttons */}
         <div
-          className={`flex flex-wrap justify-center items-center gap-5 transition-all duration-1000 delay-600 ${
+          className={`flex flex-col sm:flex-row w-full sm:w-auto justify-center items-center gap-3.5 sm:gap-5 transition-all duration-1000 delay-600 ${
             mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
           }`}
         >
           <a
             href="#wishes"
-            className="group px-8 py-4 rounded-full bg-[#B87C5D] text-[#FFFDF9] font-medium text-sm sm:text-base shadow-lg hover:bg-[#A36B4E] hover:shadow-xl hover:scale-105 transition-all duration-300 active:scale-95 flex items-center gap-2.5"
+            className="w-full sm:w-auto group px-8 py-3.5 sm:py-4 rounded-full bg-[#B87C5D] text-[#FFFDF9] font-medium text-sm sm:text-base shadow-lg hover:bg-[#A36B4E] hover:shadow-xl hover:scale-105 transition-all duration-300 active:scale-95 flex items-center justify-center gap-2.5"
           >
             <Heart className="w-5 h-5 fill-current group-hover:scale-110 transition-transform text-[#FFFDF9]" />
             <span>Leave a Birthday Wish</span>
@@ -122,7 +122,7 @@ export default function HeroSection() {
 
           <button
             onClick={triggerConfetti}
-            className="px-7 py-4 rounded-full bg-[#FFFDF9] text-[#4A342A] border border-[#C9A27E]/50 font-medium text-sm sm:text-base shadow-md hover:bg-[#E8D5C4]/40 hover:border-[#B87C5D] hover:scale-105 transition-all duration-300 flex items-center gap-2.5 active:scale-95"
+            className="w-full sm:w-auto px-7 py-3.5 sm:py-4 rounded-full bg-[#FFFDF9] text-[#4A342A] border border-[#C9A27E]/50 font-medium text-sm sm:text-base shadow-md hover:bg-[#E8D5C4]/40 hover:border-[#B87C5D] hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2.5 active:scale-95"
           >
             <PartyPopper className="w-5 h-5 text-[#C9A27E]" />
             <span>Celebrate Rameen</span>
