@@ -33,11 +33,35 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative min-h-[92vh] flex flex-col justify-center items-center text-center px-4 sm:px-6 py-24 overflow-hidden">
+    <section className="relative min-h-[92vh] flex flex-col justify-center items-center text-center px-4 sm:px-6 py-20 overflow-hidden">
       {/* Decorative Light & Shimmer Effects */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#E8D5C4]/35 via-transparent to-[#FAF3EA] pointer-events-none" />
 
+      {/* Monogram Logo RA - Absolutely Positioned Top Right */}
+      <div
+        className={`absolute top-6 right-6 sm:top-8 sm:right-12 z-20 flex items-center gap-2.5 transition-all duration-1000 ${
+          mounted ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2"
+        }`}
+      >
+        <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-gradient-to-tr from-[#B87C5D] via-[#C9A27E] to-[#E8D5C4] p-[1.5px] shadow-sm">
+          <div className="w-full h-full bg-[#FFFDF9] rounded-full flex items-center justify-center">
+            <span className="font-serif italic font-bold text-sm sm:text-base tracking-widest text-[#B87C5D] pl-0.5">
+              RA
+            </span>
+          </div>
+        </div>
+        <div className="text-left hidden xs:block">
+          <span className="font-serif italic font-bold text-base sm:text-lg text-[#4A342A] block leading-tight">
+            Rameen Afzal
+          </span>
+          <span className="text-[9px] uppercase tracking-widest text-[#B87C5D] font-semibold block">
+            Official Tribute
+          </span>
+        </div>
+      </div>
+
       <div className="relative z-10 max-w-4xl mx-auto flex flex-col items-center">
+
         {/* Date Badge */}
         <div
           className={`inline-flex items-center gap-2 px-5 py-2 rounded-full bg-[#FFFDF9]/90 border border-[#C9A27E]/50 text-[#B87C5D] text-xs sm:text-sm tracking-widest uppercase font-semibold shadow-md mb-8 backdrop-blur-md transition-all duration-1000 ${

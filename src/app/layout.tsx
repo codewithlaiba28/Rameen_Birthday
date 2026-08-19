@@ -34,6 +34,11 @@ export const metadata: Metadata = {
     description: "Send your warm wishes to Rameen Afzal on her special day!",
     type: "website",
   },
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
 };
 
 export default function RootLayout({
