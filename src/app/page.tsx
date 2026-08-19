@@ -1,6 +1,5 @@
 import React from "react";
 import AmbientBackground from "@/components/AmbientBackground";
-import AudioPlayer from "@/components/AudioPlayer";
 import HeroSection from "@/components/HeroSection";
 import CountdownSection from "@/components/CountdownSection";
 import InteractiveSurprise from "@/components/InteractiveSurprise";
@@ -14,9 +13,6 @@ export default function Home() {
     <main className="relative min-h-screen selection:bg-[#E8D5C4] selection:text-[#4A342A]">
       {/* Ambient Floating Glow & Particles */}
       <AmbientBackground />
-
-      {/* Floating Audio Player */}
-      <AudioPlayer />
 
       {/* 1. Hero Section */}
       <HeroSection />
