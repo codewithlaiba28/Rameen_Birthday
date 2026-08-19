@@ -101,7 +101,7 @@ export default function HeroSection() {
             className="px-7 py-4 rounded-full bg-[#FFFDF9] text-[#4A342A] border border-[#C9A27E]/50 font-medium text-sm sm:text-base shadow-md hover:bg-[#E8D5C4]/40 hover:border-[#B87C5D] hover:scale-105 transition-all duration-300 flex items-center gap-2.5 active:scale-95"
           >
             <PartyPopper className="w-5 h-5 text-[#C9A27E]" />
-            <span>Celebrate Rameen 🌸</span>
+            <span>Celebrate Rameen</span>
           </button>
         </div>
       </div>

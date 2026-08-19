@@ -25,7 +25,7 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  title: "Happy Birthday Rameen Afzal | August 23rd 🌸",
+  title: "Happy Birthday Rameen Afzal | August 23rd",
   description: "A warm, luxury aesthetic celebration for Rameen Afzal. Leave your birthday wishes and celebrate her special day on August 23rd.",
   keywords: ["Rameen Afzal", "Birthday", "August 23", "August 23rd", "Wishes", "Celebration"],
   authors: [{ name: "With love for Rameen" }],

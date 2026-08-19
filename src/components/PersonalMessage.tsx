@@ -68,7 +68,7 @@ export default function PersonalMessage() {
                 With warmth & endless admiration,
               </p>
               <p className="text-xs uppercase tracking-wider text-[#4A342A]/60 mt-1 font-semibold">
-                Always celebrating you 🤍
+                Always celebrating you
               </p>
             </div>
 

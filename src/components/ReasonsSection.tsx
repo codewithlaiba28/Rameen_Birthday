@@ -10,7 +10,6 @@ export default function ReasonsSection() {
     {
       id: 1,
       icon: Sun,
-      emoji: "☕",
       title: "Radiant Warmth",
       description: "Your presence brings deep comfort and golden light, making every interaction feel like a warm, serene afternoon.",
       tag: "Warmth",
@@ -18,26 +17,23 @@ export default function ReasonsSection() {
     {
       id: 2,
       icon: HeartHandshake,
-      emoji: "🌸",
       title: "Genuine Kindness",
-      description: "You have a rare, selfless heart that listens deeply and cares for others with unconditional grace and empathy.",
+      description: "You have a rare, humble heart that listens deeply and cares for others with unconditional grace and empathy.",
       tag: "Grace",
     },
     {
       id: 3,
       icon: ShieldCheck,
-      emoji: "🕊️",
       title: "Unwavering Loyalty",
-      description: "A steadfast anchor and dependable friend who stands by the people you love through every season of life.",
+      description: "A steadfast anchor and dependable friend who balances career ambition with genuine care for everyone around you.",
       tag: "Loyalty",
     },
     {
       id: 4,
       icon: Sparkles,
-      emoji: "✨",
-      title: "Pure Joy & Light",
-      description: "Your laughter is contagious and your optimistic spirit reminds us all to cherish life's sweetest, simplest moments.",
-      tag: "Sparkle",
+      title: "Professional Dedication",
+      description: "An exceptionally hard-working professional whose honesty and positivity inspire everyone around her.",
+      tag: "Dedication",
     },
   ];
 
@@ -76,14 +72,11 @@ export default function ReasonsSection() {
                 <div className="absolute -bottom-10 -right-10 w-36 h-36 bg-[#E8D5C4]/40 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-700 pointer-events-none" />
 
                 <div>
-                  {/* Top Icon & Emoji row */}
+                  {/* Top Icon row */}
                   <div className="flex items-center justify-between mb-6">
                     <div className="w-14 h-14 rounded-2xl bg-[#E8D5C4]/60 border border-[#C9A27E]/40 flex items-center justify-center text-[#B87C5D] group-hover:bg-[#B87C5D] group-hover:text-[#FFFDF9] transition-all duration-300 shadow-sm">
                       <Icon className="w-7 h-7" />
                     </div>
-                    <span className="text-3xl transform group-hover:scale-125 transition-transform duration-300">
-                      {item.emoji}
-                    </span>
                   </div>
 
                   {/* Title */}

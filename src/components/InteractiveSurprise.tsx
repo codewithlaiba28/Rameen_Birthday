@@ -62,7 +62,7 @@ export default function InteractiveSurprise() {
                 Interactive Feature #1
               </span>
               <span className="px-3 py-1 rounded-full bg-[#E8D5C4]/50 text-xs text-[#4A342A] font-medium">
-                🎂 Birthday Cake
+                Birthday Cake
               </span>
             </div>
 
@@ -114,7 +114,7 @@ export default function InteractiveSurprise() {
                   className="w-full py-3.5 rounded-2xl bg-[#B87C5D] text-[#FFFDF9] font-medium text-sm sm:text-base shadow-md hover:bg-[#A36B4E] transition-all flex items-center justify-center gap-2 group"
                 >
                   <Flame className="w-4 h-4 text-amber-300 group-hover:scale-110 transition-transform" />
-                  <span>Blow Out Candles 💨</span>
+                  <span>Blow Out Candles</span>
                 </button>
               ) : (
                 <button
@@ -122,12 +122,12 @@ export default function InteractiveSurprise() {
                   className="w-full py-3.5 rounded-2xl bg-[#FFFDF9] text-[#4A342A] border border-[#C9A27E]/40 font-medium text-sm sm:text-base shadow-sm hover:bg-[#E8D5C4]/40 transition-all flex items-center justify-center gap-2"
                 >
                   <Sparkles className="w-4 h-4 text-[#C9A27E]" />
-                  <span>Light Candles Again ✨</span>
+                  <span>Light Candles Again</span>
                 </button>
               )}
               {isBlownOut && (
                 <p className="text-xs text-[#B87C5D] font-medium mt-3 animate-bounce">
-                  ✨ Wish made! May all your dreams come true on August 23rd! 🌸
+                  Wish made! May all your dreams come true on August 23rd!
                 </p>
               )}
             </div>
@@ -140,7 +140,7 @@ export default function InteractiveSurprise() {
                 Interactive Feature #2
               </span>
               <span className="px-3 py-1 rounded-full bg-[#E8D5C4]/50 text-xs text-[#4A342A] font-medium">
-                🎁 Gift Reveal
+                Gift Reveal
               </span>
             </div>
 
@@ -168,7 +168,7 @@ export default function InteractiveSurprise() {
                     "May August 23rd mark the beginning of your happiest year yet, filled with peace, continuous growth, soft moments of joy, and unwavering success!"
                   </p>
                   <p className="font-handwritten text-xl text-[#B87C5D] text-right">
-                    Crafted with pure admiration 💖
+                    Crafted with pure admiration
                   </p>
                 </div>
               )}
@@ -181,7 +181,7 @@ export default function InteractiveSurprise() {
                 className="w-full py-3.5 rounded-2xl bg-[#FFFDF9] text-[#4A342A] border border-[#C9A27E]/40 font-medium text-sm sm:text-base shadow-sm hover:bg-[#E8D5C4]/40 transition-all flex items-center justify-center gap-2"
               >
                 <Gift className="w-4 h-4 text-[#B87C5D]" />
-                <span>{isGiftOpened ? "Close Gift Box 🎁" : "Unwrap Birthday Surprise 🎁"}</span>
+                <span>{isGiftOpened ? "Close Gift Box" : "Unwrap Birthday Surprise"}</span>
               </button>
             </div>
           </div>

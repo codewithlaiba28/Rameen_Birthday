@@ -18,7 +18,7 @@ const INITIAL_WISHES: WishItem[] = [
     id: "initial-1",
     name: "Ayesha & Family",
     wish: "Happy Birthday Rameen! May your day on August 23rd be filled with warm coffee, sweet smiles, and all the love in the world. Keep shining brightly!",
-    tag: "🌸 Soft Wishes",
+    tag: "Soft Wishes",
     timestamp: "August 23, 2026",
     likes: 18,
   },
@@ -26,7 +26,7 @@ const INITIAL_WISHES: WishItem[] = [
     id: "initial-2",
     name: "Zainab K.",
     wish: "To the sweetest soul, thank you for always bringing so much peace and light into our lives. Have the happiest August 23rd birthday, Rameen!",
-    tag: "✨ Pure Light",
+    tag: "Pure Light",
     timestamp: "August 23, 2026",
     likes: 14,
   },
@@ -34,7 +34,7 @@ const INITIAL_WISHES: WishItem[] = [
     id: "initial-3",
     name: "Hamza R.",
     wish: "Wishing Rameen Afzal a year ahead packed with success, genuine happiness, and beautiful adventures. Happy August 23rd Birthday!",
-    tag: "🎂 Birthday Joy",
+    tag: "Birthday Joy",
     timestamp: "August 23, 2026",
     likes: 12,
   },
@@ -42,24 +42,24 @@ const INITIAL_WISHES: WishItem[] = [
     id: "initial-4",
     name: "Sara & Bilal",
     wish: "Sending you the warmest birthday hugs on August 23rd! Stay as wonderful, kind, and loyal as you've always been.",
-    tag: "☕ Warm Vibes",
+    tag: "Warm Vibes",
     timestamp: "August 23, 2026",
     likes: 21,
   },
 ];
 
 const TAG_OPTIONS = [
-  "🌸 Soft Wishes",
-  "✨ Pure Light",
-  "🎂 Birthday Joy",
-  "☕ Warm Vibes",
-  "🕊️ Deep Gratitude",
+  "Soft Wishes",
+  "Pure Light",
+  "Birthday Joy",
+  "Warm Vibes",
+  "Deep Gratitude",
 ];
 
 const QUICK_WISH_TEMPLATES = [
-  "Wishing you endless happiness & peace on your special day! 🌸",
-  "Happy Birthday Rameen! May all your dreams come true! ✨",
-  "To a wonderful soul, have the brightest August 23rd birthday! 💖",
+  "Wishing you endless happiness and peace on your special day!",
+  "Happy Birthday Rameen! May all your dreams come true!",
+  "To a wonderful soul, have the brightest August 23rd birthday!",
 ];
 
 export default function WishesWall() {
@@ -112,7 +112,7 @@ export default function WishesWall() {
     const trimmedWish = wish.trim();
 
     if (!trimmedName || !trimmedWish) {
-      setErrorMsg("Please enter both your name and a birthday wish 🤍");
+      setErrorMsg("Please enter both your name and a birthday wish.");
       return;
     }
 
@@ -318,7 +318,7 @@ export default function WishesWall() {
               className="w-full py-4 rounded-2xl bg-[#B87C5D] text-[#FFFDF9] font-medium text-base shadow-lg hover:bg-[#A36B4E] hover:shadow-xl transition-all duration-300 transform active:scale-[0.99] flex items-center justify-center gap-2"
             >
               <Send className="w-4 h-4" />
-              <span>Post Wish on Rameen's Wall 🤍</span>
+              <span>Post Wish on Rameen's Wall</span>
             </button>
           </form>
         </div>
@@ -445,7 +445,7 @@ export default function WishesWall() {
               <Heart className="w-6 h-6" />
             </div>
             <h3 className="font-serif italic text-2xl text-[#4A342A] mb-2">
-              Be the first to leave a wish 🤍
+              Be the first to leave a wish
             </h3>
             <p className="text-sm text-[#4A342A]/70 mb-6">
               There are no wishes matching your filter yet. Fill in the form above to share your birthday love with Rameen Afzal for August 23rd!
@@ -458,7 +458,7 @@ export default function WishesWall() {
               }}
               className="px-6 py-2.5 rounded-full bg-[#B87C5D] text-[#FFFDF9] text-xs font-semibold shadow-md hover:bg-[#A36B4E] transition-all"
             >
-              Restore Sample Wishes 🌸
+              Restore Sample Wishes
             </button>
           </div>
         )}
