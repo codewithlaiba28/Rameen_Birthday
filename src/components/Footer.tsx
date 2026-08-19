@@ -25,7 +25,7 @@ export default function Footer() {
         <div className="flex items-center gap-2 text-sm text-[#4A342A]/85 font-semibold">
           <span>Made with</span>
           <Heart className="w-4 h-4 text-[#B87C5D] fill-[#B87C5D] animate-pulse" />
-          <span>for Rameen Afzal — August 23rd</span>
+          <span>for Rameen Afzal • August 23rd</span>
         </div>
 
         {/* Scroll to top */}

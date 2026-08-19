@@ -25,7 +25,7 @@ const INITIAL_WISHES: WishItem[] = [
   {
     id: "initial-2",
     name: "Zainab K.",
-    wish: "To the sweetest soul — thank you for always bringing so much peace and light into our lives. Have the happiest August 23rd birthday, Rameen!",
+    wish: "To the sweetest soul, thank you for always bringing so much peace and light into our lives. Have the happiest August 23rd birthday, Rameen!",
     tag: "✨ Pure Light",
     timestamp: "August 23, 2026",
     likes: 14,
@@ -59,7 +59,7 @@ const TAG_OPTIONS = [
 const QUICK_WISH_TEMPLATES = [
   "Wishing you endless happiness & peace on your special day! 🌸",
   "Happy Birthday Rameen! May all your dreams come true! ✨",
-  "To a wonderful soul — have the brightest August 23rd birthday! 💖",
+  "To a wonderful soul, have the brightest August 23rd birthday! 💖",
 ];
 
 export default function WishesWall() {

@@ -51,7 +51,7 @@ export default function PersonalMessage() {
           {/* Letter Body Content */}
           <div className="space-y-6 text-base sm:text-xl leading-relaxed text-[#4A342A]/90 font-sans">
             <p className="first-letter:text-5xl first-letter:font-serif first-letter:text-[#B87C5D] first-letter:mr-2 first-letter:float-left">
-              On this beautiful day of <strong className="font-semibold text-[#B87C5D]">August 23rd</strong>, we stop to celebrate you — a truly rare and wonderful soul. You possess a unique gift of bringing genuine warmth, grace, and comfort wherever you go, like a golden summer breeze filled with peace.
+              On this beautiful day of <strong className="font-semibold text-[#B87C5D]">August 23rd</strong>, we stop to celebrate you, a truly rare and wonderful soul. You possess a unique gift of bringing genuine warmth, grace, and comfort wherever you go, like a golden summer breeze filled with peace.
             </p>
             <p>
               Your kindness is effortless, your loyalty is steadfast, and the gentle light you share makes every room brighter and every heart feel lighter. You remind everyone around you of the sweet simplicity of being cared for and understood.

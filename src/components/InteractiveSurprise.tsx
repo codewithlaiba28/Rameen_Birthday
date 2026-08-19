@@ -165,10 +165,10 @@ export default function InteractiveSurprise() {
                     </span>
                   </div>
                   <p className="text-sm text-[#4A342A]/90 leading-relaxed font-sans mb-3">
-                    "May August 23rd mark the beginning of your happiest year yet — filled with peace, continuous growth, soft moments of joy, and unwavering success!"
+                    "May August 23rd mark the beginning of your happiest year yet, filled with peace, continuous growth, soft moments of joy, and unwavering success!"
                   </p>
                   <p className="font-handwritten text-xl text-[#B87C5D] text-right">
-                    — Crafted with pure admiration 💖
+                    Crafted with pure admiration 💖
                   </p>
                 </div>
               )}
